@@ -1,0 +1,2101 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "pos": [
+        1,
+        5
+      ],
+      "color": "blue",
+      "id": "nautilus\nclone\n3433"
+    },
+    {
+      "pos": [
+        2,
+        7
+      ],
+      "color": "blue",
+      "id": "nautilus\nclone\n25794"
+    },
+    {
+      "pos": [
+        3,
+        7
+      ],
+      "color": "blue",
+      "id": "nautilus\nclone\n25794"
+    },
+    {
+      "pos": [
+        4,
+        8
+      ],
+      "color": "blue",
+      "id": "nautilus\nclone\n25795"
+    },
+    {
+      "pos": [
+        5,
+        8
+      ],
+      "color": "green",
+      "id": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "pos": [
+        9.25,
+        8
+      ],
+      "color": "green",
+      "id": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "pos": [
+        13.5,
+        8
+      ],
+      "color": "green",
+      "id": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "pos": [
+        17.75,
+        8
+      ],
+      "color": "green",
+      "id": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "pos": [
+        22.0,
+        8
+      ],
+      "color": "green",
+      "id": "libreoffice\nexecve\n25795"
+    },
+    {
+      "pos": [
+        27.25,
+        8
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        28.25,
+        9
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25796"
+    },
+    {
+      "pos": [
+        29.25,
+        9
+      ],
+      "color": "green",
+      "id": "libreoffice\nwrite\n25796"
+    },
+    {
+      "pos": [
+        31.5,
+        8
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        32.5,
+        10
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25798"
+    },
+    {
+      "pos": [
+        33.5,
+        10
+      ],
+      "color": "green",
+      "id": "dirname\nexecve\n25798"
+    },
+    {
+      "pos": [
+        36.75,
+        10
+      ],
+      "color": "green",
+      "id": "dirname\nwrite\n25798"
+    },
+    {
+      "pos": [
+        39.0,
+        8
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        40.0,
+        11
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25799"
+    },
+    {
+      "pos": [
+        41.0,
+        11
+      ],
+      "color": "green",
+      "id": "basename\nexecve\n25799"
+    },
+    {
+      "pos": [
+        44.25,
+        11
+      ],
+      "color": "green",
+      "id": "basename\nwrite\n25799"
+    },
+    {
+      "pos": [
+        46.5,
+        8
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        47.5,
+        12
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25800"
+    },
+    {
+      "pos": [
+        48.5,
+        12
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25800"
+    },
+    {
+      "pos": [
+        49.5,
+        12
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25800"
+    },
+    {
+      "pos": [
+        50.5,
+        14
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25802"
+    },
+    {
+      "pos": [
+        51.5,
+        14
+      ],
+      "color": "green",
+      "id": "sed\nexecve\n25802"
+    },
+    {
+      "pos": [
+        53.75,
+        13
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25801"
+    },
+    {
+      "pos": [
+        54.75,
+        13
+      ],
+      "color": "green",
+      "id": "ls\nexecve\n25801"
+    },
+    {
+      "pos": [
+        57.0,
+        13
+      ],
+      "color": "green",
+      "id": "ls\nwrite\n25801"
+    },
+    {
+      "pos": [
+        63.25,
+        14
+      ],
+      "color": "green",
+      "id": "sed\nwrite\n25802"
+    },
+    {
+      "pos": [
+        66.5,
+        8
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        67.5,
+        15
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25803"
+    },
+    {
+      "pos": [
+        68.5,
+        15
+      ],
+      "color": "green",
+      "id": "dirname\nexecve\n25803"
+    },
+    {
+      "pos": [
+        71.75,
+        15
+      ],
+      "color": "green",
+      "id": "dirname\nwrite\n25803"
+    },
+    {
+      "pos": [
+        75.0,
+        8
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        76.0,
+        16
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25804"
+    },
+    {
+      "pos": [
+        77.0,
+        16
+      ],
+      "color": "green",
+      "id": "libreoffice\nwrite\n25804"
+    },
+    {
+      "pos": [
+        80.25,
+        8
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        81.25,
+        8
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        82.25,
+        18
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25806"
+    },
+    {
+      "pos": [
+        83.25,
+        18
+      ],
+      "color": "green",
+      "id": "grep\nexecve\n25806"
+    },
+    {
+      "pos": [
+        85.5,
+        17
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25805"
+    },
+    {
+      "pos": [
+        86.5,
+        8
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        87.5,
+        19
+      ],
+      "color": "blue",
+      "id": "libreoffice\nclone\n25807"
+    },
+    {
+      "pos": [
+        88.5,
+        19
+      ],
+      "color": "green",
+      "id": "uname\nexecve\n25807"
+    },
+    {
+      "pos": [
+        90.75,
+        19
+      ],
+      "color": "green",
+      "id": "uname\nwrite\n25807"
+    },
+    {
+      "pos": [
+        93.0,
+        8
+      ],
+      "color": "green",
+      "id": "oosplash\nexecve\n25795"
+    },
+    {
+      "pos": [
+        97.25,
+        8
+      ],
+      "color": "blue",
+      "id": "oosplash\nclone\n25795"
+    },
+    {
+      "pos": [
+        98.25,
+        20
+      ],
+      "color": "blue",
+      "id": "oosplash\nclone\n25808"
+    },
+    {
+      "pos": [
+        99.25,
+        8
+      ],
+      "color": "green",
+      "id": "oosplash\nmkdir\n25795"
+    },
+    {
+      "pos": [
+        102.5,
+        8
+      ],
+      "color": "blue",
+      "id": "oosplash\nclone\n25795"
+    },
+    {
+      "pos": [
+        103.5,
+        21
+      ],
+      "color": "blue",
+      "id": "oosplash\nclone\n25809"
+    },
+    {
+      "pos": [
+        104.5,
+        21
+      ],
+      "color": "blue",
+      "id": "oosplash\nclone\n25809"
+    },
+    {
+      "pos": [
+        105.5,
+        22
+      ],
+      "color": "blue",
+      "id": "osl_executeProc\nclone\n25810"
+    },
+    {
+      "pos": [
+        106.5,
+        22
+      ],
+      "color": "green",
+      "id": "javaldx\nexecve\n25810"
+    },
+    {
+      "pos": [
+        112.75,
+        22
+      ],
+      "color": "blue",
+      "id": "javaldx\nclone\n25810"
+    },
+    {
+      "pos": [
+        113.75,
+        23
+      ],
+      "color": "blue",
+      "id": "javaldx\nclone\n25811"
+    },
+    {
+      "pos": [
+        114.75,
+        22
+      ],
+      "color": "green",
+      "id": "javaldx\nwrite\n25810"
+    },
+    {
+      "pos": [
+        119.0,
+        4
+      ],
+      "color": "green",
+      "id": "rs:main\nwrite\n970"
+    },
+    {
+      "pos": [
+        125.25,
+        22
+      ],
+      "color": "green",
+      "id": "javaldx\nwrite\n25810"
+    },
+    {
+      "pos": [
+        131.5,
+        8
+      ],
+      "color": "green",
+      "id": "oosplash\nwrite\n25795"
+    },
+    {
+      "pos": [
+        135.75,
+        8
+      ],
+      "color": "blue",
+      "id": "oosplash\nclone\n25795"
+    },
+    {
+      "pos": [
+        136.75,
+        24
+      ],
+      "color": "blue",
+      "id": "oosplash\nclone\n25812"
+    },
+    {
+      "pos": [
+        137.75,
+        24
+      ],
+      "color": "blue",
+      "id": "oosplash\nclone\n25812"
+    },
+    {
+      "pos": [
+        138.75,
+        25
+      ],
+      "color": "blue",
+      "id": "osl_executeProc\nclone\n25813"
+    },
+    {
+      "pos": [
+        139.75,
+        25
+      ],
+      "color": "green",
+      "id": "soffice.bin\nexecve\n25813"
+    },
+    {
+      "pos": [
+        145.0,
+        4
+      ],
+      "color": "green",
+      "id": "rs:main\nwrite\n970"
+    },
+    {
+      "pos": [
+        151.25,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        152.25,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        153.25,
+        26
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25814"
+    },
+    {
+      "pos": [
+        154.25,
+        27
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25815"
+    },
+    {
+      "pos": [
+        155.25,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        156.25,
+        28
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25816"
+    },
+    {
+      "pos": [
+        157.25,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        158.25,
+        29
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25817"
+    },
+    {
+      "pos": [
+        159.25,
+        26
+      ],
+      "color": "green",
+      "id": "soffice.bin\nwrite\n25814"
+    },
+    {
+      "pos": [
+        165.5,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        166.5,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        167.5,
+        30
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25818"
+    },
+    {
+      "pos": [
+        168.5,
+        31
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25819"
+    },
+    {
+      "pos": [
+        169.5,
+        25
+      ],
+      "color": "green",
+      "id": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "pos": [
+        171.75,
+        25
+      ],
+      "color": "green",
+      "id": "soffice.bin\npwrite\n25813"
+    },
+    {
+      "pos": [
+        174.0,
+        25
+      ],
+      "color": "green",
+      "id": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "pos": [
+        176.25,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        177.25,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        178.25,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        179.25,
+        33
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25821"
+    },
+    {
+      "pos": [
+        180.25,
+        32
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25820"
+    },
+    {
+      "pos": [
+        181.25,
+        34
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25822"
+    },
+    {
+      "pos": [
+        182.25,
+        25
+      ],
+      "color": "green",
+      "id": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "pos": [
+        184.5,
+        28
+      ],
+      "color": "green",
+      "id": "soffice.bin\npwrite\n25816"
+    },
+    {
+      "pos": [
+        186.75,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        187.75,
+        35
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25824"
+    },
+    {
+      "pos": [
+        188.75,
+        25
+      ],
+      "color": "green",
+      "id": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "pos": [
+        191.0,
+        25
+      ],
+      "color": "green",
+      "id": "soffice.bin\npwrite\n25813"
+    },
+    {
+      "pos": [
+        196.25,
+        25
+      ],
+      "color": "green",
+      "id": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "pos": [
+        202.5,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        203.5,
+        36
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25825"
+    },
+    {
+      "pos": [
+        204.5,
+        36
+      ],
+      "color": "green",
+      "id": "sh\nexecve\n25825"
+    },
+    {
+      "pos": [
+        206.75,
+        36
+      ],
+      "color": "blue",
+      "id": "sh\nclone\n25825"
+    },
+    {
+      "pos": [
+        207.75,
+        37
+      ],
+      "color": "blue",
+      "id": "sh\nclone\n25826"
+    },
+    {
+      "pos": [
+        208.75,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        209.75,
+        38
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25827"
+    },
+    {
+      "pos": [
+        210.75,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        211.75,
+        39
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25828"
+    },
+    {
+      "pos": [
+        212.75,
+        3
+      ],
+      "color": "green",
+      "id": "cupsd\nwrite\n767"
+    },
+    {
+      "pos": [
+        216.0,
+        39
+      ],
+      "color": "green",
+      "id": "soffice.bin\nwrite\n25828"
+    },
+    {
+      "pos": [
+        218.25,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        219.25,
+        40
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25829"
+    },
+    {
+      "pos": [
+        220.25,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        221.25,
+        41
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25830"
+    },
+    {
+      "pos": [
+        222.25,
+        35
+      ],
+      "color": "green",
+      "id": "soffice.bin\npwrite\n25824"
+    },
+    {
+      "pos": [
+        224.5,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        225.5,
+        42
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25831"
+    },
+    {
+      "pos": [
+        226.5,
+        42
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25831"
+    },
+    {
+      "pos": [
+        227.5,
+        43
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25832"
+    },
+    {
+      "pos": [
+        228.5,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        229.5,
+        44
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25833"
+    },
+    {
+      "pos": [
+        230.5,
+        44
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25833"
+    },
+    {
+      "pos": [
+        231.5,
+        45
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25834"
+    },
+    {
+      "pos": [
+        232.5,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        233.5,
+        46
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25835"
+    },
+    {
+      "pos": [
+        234.5,
+        46
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25835"
+    },
+    {
+      "pos": [
+        235.5,
+        47
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25836"
+    },
+    {
+      "pos": [
+        236.5,
+        47
+      ],
+      "color": "green",
+      "id": "gpg\nexecve\n25836"
+    },
+    {
+      "pos": [
+        238.75,
+        47
+      ],
+      "color": "green",
+      "id": "gpg\nwrite\n25836"
+    },
+    {
+      "pos": [
+        245.0,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        246.0,
+        48
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25837"
+    },
+    {
+      "pos": [
+        247.0,
+        48
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25837"
+    },
+    {
+      "pos": [
+        248.0,
+        49
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25838"
+    },
+    {
+      "pos": [
+        249.0,
+        49
+      ],
+      "color": "green",
+      "id": "gpgsm\nexecve\n25838"
+    },
+    {
+      "pos": [
+        251.25,
+        49
+      ],
+      "color": "green",
+      "id": "gpgsm\nwrite\n25838"
+    },
+    {
+      "pos": [
+        257.5,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        258.5,
+        50
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25839"
+    },
+    {
+      "pos": [
+        259.5,
+        50
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25839"
+    },
+    {
+      "pos": [
+        260.5,
+        51
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25840"
+    },
+    {
+      "pos": [
+        261.5,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        262.5,
+        52
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25841"
+    },
+    {
+      "pos": [
+        263.5,
+        25
+      ],
+      "color": "green",
+      "id": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "pos": [
+        265.75,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        266.75,
+        53
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25842"
+    },
+    {
+      "pos": [
+        267.75,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        268.75,
+        54
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25843"
+    },
+    {
+      "pos": [
+        269.75,
+        25
+      ],
+      "color": "green",
+      "id": "soffice.bin\npwrite\n25813"
+    },
+    {
+      "pos": [
+        272.0,
+        25
+      ],
+      "color": "green",
+      "id": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "pos": [
+        274.25,
+        54
+      ],
+      "color": "green",
+      "id": "soffice.bin\npwrite\n25843"
+    },
+    {
+      "pos": [
+        276.5,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        277.5,
+        55
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25845"
+    },
+    {
+      "pos": [
+        278.5,
+        55
+      ],
+      "color": "green",
+      "id": "soffice.bin\npwrite\n25845"
+    },
+    {
+      "pos": [
+        280.75,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        281.75,
+        56
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25846"
+    },
+    {
+      "pos": [
+        282.75,
+        56
+      ],
+      "color": "green",
+      "id": "soffice.bin\npwrite\n25846"
+    },
+    {
+      "pos": [
+        285.0,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        286.0,
+        57
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25847"
+    },
+    {
+      "pos": [
+        287.0,
+        57
+      ],
+      "color": "green",
+      "id": "soffice.bin\npwrite\n25847"
+    },
+    {
+      "pos": [
+        289.25,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        290.25,
+        58
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25848"
+    },
+    {
+      "pos": [
+        291.25,
+        58
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25848"
+    },
+    {
+      "pos": [
+        292.25,
+        59
+      ],
+      "color": "blue",
+      "id": "osl_executeProc\nclone\n25849"
+    },
+    {
+      "pos": [
+        293.25,
+        59
+      ],
+      "color": "green",
+      "id": "shellcode\nexecve\n25849"
+    },
+    {
+      "pos": [
+        296.5,
+        59
+      ],
+      "color": "green",
+      "id": "nc\nexecve\n25849"
+    },
+    {
+      "pos": [
+        298.75,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        299.75,
+        60
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25850"
+    },
+    {
+      "pos": [
+        300.75,
+        60
+      ],
+      "color": "green",
+      "id": "soffice.bin\npwrite\n25850"
+    },
+    {
+      "pos": [
+        303.0,
+        25
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        304.0,
+        61
+      ],
+      "color": "blue",
+      "id": "soffice.bin\nclone\n25851"
+    },
+    {
+      "pos": [
+        305.0,
+        61
+      ],
+      "color": "green",
+      "id": "soffice.bin\npwrite\n25851"
+    },
+    {
+      "pos": [
+        307.25,
+        6
+      ],
+      "color": "green",
+      "id": "bash\nwrite\n24584"
+    },
+    {
+      "pos": [
+        310.5,
+        6
+      ],
+      "color": "blue",
+      "id": "bash\nclone\n24584"
+    },
+    {
+      "pos": [
+        311.5,
+        62
+      ],
+      "color": "blue",
+      "id": "bash\nclone\n25854"
+    },
+    {
+      "pos": [
+        312.5,
+        62
+      ],
+      "color": "green",
+      "id": "netstat\nexecve\n25854"
+    },
+    {
+      "pos": [
+        314.75,
+        62
+      ],
+      "color": "green",
+      "id": "netstat\nwrite\n25854"
+    },
+    {
+      "pos": [
+        321.0,
+        6
+      ],
+      "color": "green",
+      "id": "bash\nwrite\n24584"
+    },
+    {
+      "pos": [
+        0,
+        0
+      ],
+      "color": "w",
+      "id": "\n\n"
+    },
+    {
+      "pos": [
+        0,
+        65
+      ],
+      "color": "w",
+      "id": "\n\n"
+    },
+    {
+      "pos": [
+        340.25,
+        0
+      ],
+      "color": "w",
+      "id": "\n\n"
+    },
+    {
+      "pos": [
+        340.25,
+        65
+      ],
+      "color": "w",
+      "id": "\n\n"
+    }
+  ],
+  "links": [
+    {
+      "source": "nautilus\nclone\n3433",
+      "target": "nautilus\nclone\n25794"
+    },
+    {
+      "source": "nautilus\nclone\n25794",
+      "target": "nautilus\nclone\n25794"
+    },
+    {
+      "source": "nautilus\nclone\n25794",
+      "target": "nautilus\nclone\n25795"
+    },
+    {
+      "source": "nautilus\nclone\n25795",
+      "target": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "source": "gio-launch-desk\nexecve\n25795",
+      "target": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "source": "gio-launch-desk\nexecve\n25795",
+      "target": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "source": "gio-launch-desk\nexecve\n25795",
+      "target": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "source": "gio-launch-desk\nexecve\n25795",
+      "target": "libreoffice\nexecve\n25795"
+    },
+    {
+      "source": "libreoffice\nexecve\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25796"
+    },
+    {
+      "source": "libreoffice\nclone\n25796",
+      "target": "libreoffice\nwrite\n25796"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25798"
+    },
+    {
+      "source": "libreoffice\nclone\n25798",
+      "target": "dirname\nexecve\n25798"
+    },
+    {
+      "source": "dirname\nexecve\n25798",
+      "target": "dirname\nwrite\n25798"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25799"
+    },
+    {
+      "source": "libreoffice\nclone\n25799",
+      "target": "basename\nexecve\n25799"
+    },
+    {
+      "source": "basename\nexecve\n25799",
+      "target": "basename\nwrite\n25799"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25800"
+    },
+    {
+      "source": "libreoffice\nclone\n25800",
+      "target": "libreoffice\nclone\n25800"
+    },
+    {
+      "source": "libreoffice\nclone\n25800",
+      "target": "libreoffice\nclone\n25800"
+    },
+    {
+      "source": "libreoffice\nclone\n25800",
+      "target": "libreoffice\nclone\n25801"
+    },
+    {
+      "source": "libreoffice\nclone\n25800",
+      "target": "libreoffice\nclone\n25802"
+    },
+    {
+      "source": "libreoffice\nclone\n25802",
+      "target": "sed\nexecve\n25802"
+    },
+    {
+      "source": "sed\nexecve\n25802",
+      "target": "sed\nwrite\n25802"
+    },
+    {
+      "source": "libreoffice\nclone\n25801",
+      "target": "ls\nexecve\n25801"
+    },
+    {
+      "source": "ls\nexecve\n25801",
+      "target": "ls\nwrite\n25801"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25803"
+    },
+    {
+      "source": "libreoffice\nclone\n25803",
+      "target": "dirname\nexecve\n25803"
+    },
+    {
+      "source": "dirname\nexecve\n25803",
+      "target": "dirname\nwrite\n25803"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25804"
+    },
+    {
+      "source": "libreoffice\nclone\n25804",
+      "target": "libreoffice\nwrite\n25804"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25805"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25806"
+    },
+    {
+      "source": "libreoffice\nclone\n25806",
+      "target": "grep\nexecve\n25806"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "oosplash\nexecve\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25807"
+    },
+    {
+      "source": "libreoffice\nclone\n25807",
+      "target": "uname\nexecve\n25807"
+    },
+    {
+      "source": "uname\nexecve\n25807",
+      "target": "uname\nwrite\n25807"
+    },
+    {
+      "source": "oosplash\nexecve\n25795",
+      "target": "oosplash\nclone\n25795"
+    },
+    {
+      "source": "oosplash\nclone\n25795",
+      "target": "oosplash\nmkdir\n25795"
+    },
+    {
+      "source": "oosplash\nclone\n25795",
+      "target": "oosplash\nclone\n25808"
+    },
+    {
+      "source": "oosplash\nmkdir\n25795",
+      "target": "oosplash\nclone\n25795"
+    },
+    {
+      "source": "oosplash\nclone\n25795",
+      "target": "oosplash\nwrite\n25795"
+    },
+    {
+      "source": "oosplash\nclone\n25795",
+      "target": "oosplash\nclone\n25809"
+    },
+    {
+      "source": "oosplash\nclone\n25809",
+      "target": "oosplash\nclone\n25809"
+    },
+    {
+      "source": "oosplash\nclone\n25809",
+      "target": "osl_executeProc\nclone\n25810"
+    },
+    {
+      "source": "osl_executeProc\nclone\n25810",
+      "target": "javaldx\nexecve\n25810"
+    },
+    {
+      "source": "javaldx\nexecve\n25810",
+      "target": "javaldx\nclone\n25810"
+    },
+    {
+      "source": "javaldx\nclone\n25810",
+      "target": "javaldx\nwrite\n25810"
+    },
+    {
+      "source": "javaldx\nclone\n25810",
+      "target": "javaldx\nclone\n25811"
+    },
+    {
+      "source": "javaldx\nwrite\n25810",
+      "target": "javaldx\nwrite\n25810"
+    },
+    {
+      "source": "rs:main\nwrite\n970",
+      "target": "rs:main\nwrite\n970"
+    },
+    {
+      "source": "oosplash\nwrite\n25795",
+      "target": "oosplash\nclone\n25795"
+    },
+    {
+      "source": "oosplash\nclone\n25795",
+      "target": "oosplash\nclone\n25812"
+    },
+    {
+      "source": "oosplash\nclone\n25812",
+      "target": "oosplash\nclone\n25812"
+    },
+    {
+      "source": "oosplash\nclone\n25812",
+      "target": "osl_executeProc\nclone\n25813"
+    },
+    {
+      "source": "osl_executeProc\nclone\n25813",
+      "target": "soffice.bin\nexecve\n25813"
+    },
+    {
+      "source": "soffice.bin\nexecve\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25814"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25815"
+    },
+    {
+      "source": "soffice.bin\nclone\n25814",
+      "target": "soffice.bin\nwrite\n25814"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25816"
+    },
+    {
+      "source": "soffice.bin\nclone\n25816",
+      "target": "soffice.bin\npwrite\n25816"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25817"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25818"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25819"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25813",
+      "target": "soffice.bin\npwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25813",
+      "target": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25820"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25821"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25822"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25824"
+    },
+    {
+      "source": "soffice.bin\nclone\n25824",
+      "target": "soffice.bin\npwrite\n25824"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25813",
+      "target": "soffice.bin\npwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25813",
+      "target": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25825"
+    },
+    {
+      "source": "soffice.bin\nclone\n25825",
+      "target": "sh\nexecve\n25825"
+    },
+    {
+      "source": "sh\nexecve\n25825",
+      "target": "sh\nclone\n25825"
+    },
+    {
+      "source": "sh\nclone\n25825",
+      "target": "sh\nclone\n25826"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25827"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25828"
+    },
+    {
+      "source": "soffice.bin\nclone\n25828",
+      "target": "soffice.bin\nwrite\n25828"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25829"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25830"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25831"
+    },
+    {
+      "source": "soffice.bin\nclone\n25831",
+      "target": "soffice.bin\nclone\n25831"
+    },
+    {
+      "source": "soffice.bin\nclone\n25831",
+      "target": "soffice.bin\nclone\n25832"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25833"
+    },
+    {
+      "source": "soffice.bin\nclone\n25833",
+      "target": "soffice.bin\nclone\n25833"
+    },
+    {
+      "source": "soffice.bin\nclone\n25833",
+      "target": "soffice.bin\nclone\n25834"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25835"
+    },
+    {
+      "source": "soffice.bin\nclone\n25835",
+      "target": "soffice.bin\nclone\n25835"
+    },
+    {
+      "source": "soffice.bin\nclone\n25835",
+      "target": "soffice.bin\nclone\n25836"
+    },
+    {
+      "source": "soffice.bin\nclone\n25836",
+      "target": "gpg\nexecve\n25836"
+    },
+    {
+      "source": "gpg\nexecve\n25836",
+      "target": "gpg\nwrite\n25836"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25837"
+    },
+    {
+      "source": "soffice.bin\nclone\n25837",
+      "target": "soffice.bin\nclone\n25837"
+    },
+    {
+      "source": "soffice.bin\nclone\n25837",
+      "target": "soffice.bin\nclone\n25838"
+    },
+    {
+      "source": "soffice.bin\nclone\n25838",
+      "target": "gpgsm\nexecve\n25838"
+    },
+    {
+      "source": "gpgsm\nexecve\n25838",
+      "target": "gpgsm\nwrite\n25838"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25839"
+    },
+    {
+      "source": "soffice.bin\nclone\n25839",
+      "target": "soffice.bin\nclone\n25839"
+    },
+    {
+      "source": "soffice.bin\nclone\n25839",
+      "target": "soffice.bin\nclone\n25840"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25841"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25842"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\npwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25843"
+    },
+    {
+      "source": "soffice.bin\nclone\n25843",
+      "target": "soffice.bin\npwrite\n25843"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25813",
+      "target": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25845"
+    },
+    {
+      "source": "soffice.bin\nclone\n25845",
+      "target": "soffice.bin\npwrite\n25845"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25846"
+    },
+    {
+      "source": "soffice.bin\nclone\n25846",
+      "target": "soffice.bin\npwrite\n25846"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25847"
+    },
+    {
+      "source": "soffice.bin\nclone\n25847",
+      "target": "soffice.bin\npwrite\n25847"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25848"
+    },
+    {
+      "source": "soffice.bin\nclone\n25848",
+      "target": "soffice.bin\nclone\n25848"
+    },
+    {
+      "source": "soffice.bin\nclone\n25848",
+      "target": "osl_executeProc\nclone\n25849"
+    },
+    {
+      "source": "osl_executeProc\nclone\n25849",
+      "target": "shellcode\nexecve\n25849"
+    },
+    {
+      "source": "shellcode\nexecve\n25849",
+      "target": "nc\nexecve\n25849"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25850"
+    },
+    {
+      "source": "soffice.bin\nclone\n25850",
+      "target": "soffice.bin\npwrite\n25850"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25851"
+    },
+    {
+      "source": "soffice.bin\nclone\n25851",
+      "target": "soffice.bin\npwrite\n25851"
+    },
+    {
+      "source": "bash\nwrite\n24584",
+      "target": "bash\nclone\n24584"
+    },
+    {
+      "source": "bash\nclone\n24584",
+      "target": "bash\nwrite\n24584"
+    },
+    {
+      "source": "bash\nclone\n24584",
+      "target": "bash\nclone\n25854"
+    },
+    {
+      "source": "bash\nclone\n25854",
+      "target": "netstat\nexecve\n25854"
+    },
+    {
+      "source": "netstat\nexecve\n25854",
+      "target": "netstat\nwrite\n25854"
+    }
+  ]
+}

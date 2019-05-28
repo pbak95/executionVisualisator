@@ -1,0 +1,22 @@
+{
+  "name": "executionvisualisator",
+  "version": "1.0.0",
+  "description": "process execution visualisation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbak95/executionVisualisator.git"
+  },
+  "author": "Patryk Bąk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbak95/executionVisualisator/issues"
+  },
+  "homepage": "https://github.com/pbak95/executionVisualisator#readme",
+  "dependencies": {
+    "create-react-app": "^3.0.1"
+  }
+}
