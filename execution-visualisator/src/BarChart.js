@@ -3,6 +3,10 @@ import * as d3 from 'd3';
 
 
 class BarChart extends Component {
+    constructor(props){
+        super(props);
+    }
+
     componentDidMount() {
         //this.drawChart();
         this.drawGraph();
@@ -32,6 +36,8 @@ class BarChart extends Component {
     }
 
     drawGraph() {
+        const height = 1700;
+        const width = 1700;
 
         let drag = (simulation) => {
 
@@ -58,19 +64,11 @@ class BarChart extends Component {
                 .on("end", dragended);
         };
 
-        let color = () => {
-            const scale = d3.scaleOrdinal(d3.schemeCategory10);
-            return d => scale(d.group);
-        };
-
-        let height = 600;
-        let width = 600;
-
         d3.json("http://localhost:3000/patryk_nowe.json").then((data) => {
             const links = data.links.map(d => Object.create(d));
             const nodes = data.nodes.map(d => Object.create(d));
-            console.log('LINKS: ', links);
-            console.log('NODES: ', nodes);
+            // console.log('LINKS: ', links);
+            // console.log('NODES: ', nodes);
 
             const simulation = d3.forceSimulation(nodes)
                 .force("link", d3.forceLink(links).id(d => d.id))
@@ -94,7 +92,9 @@ class BarChart extends Component {
                 .data(nodes)
                 .join("circle")
                 .attr("r", 5)
-                .attr("fill", color)
+                .attr("fill", d => d.color)
+                .attr('data-toggle', 'tooltip')
+                .attr('title', d => d.id)
                 .call(drag(simulation));
 
             node.append("title")
@@ -111,15 +111,16 @@ class BarChart extends Component {
                     .attr("cx", d => d.x)
                     .attr("cy", d => d.y);
             });
-
-            // invalidation.then(() => simulation.stop());
-
             return svg.node();
         });
     }
 
     render(){
-        return <div id={"#" + this.props.id}/>
+        return <div>
+            <div className="graph1">
+                <svg className="graph2" width="1700px" height="1700px"/>
+            </div>
+        </div>
     }
 }
 
