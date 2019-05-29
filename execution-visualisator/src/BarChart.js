@@ -38,6 +38,7 @@ class BarChart extends Component {
     drawGraph() {
         const height = 1700;
         const width = 1700;
+        const radius = 10;
 
         let drag = (simulation) => {
 
@@ -73,7 +74,10 @@ class BarChart extends Component {
             const simulation = d3.forceSimulation(nodes)
                 .force("link", d3.forceLink(links).id(d => d.id))
                 .force("charge", d3.forceManyBody())
+                .force("collide", d3.forceCollide())
                 .force("center", d3.forceCenter(width / 2, height / 2));
+
+            simulation.force("collide").radius(radius);
 
             const svg = d3.select('.graph2');
 
@@ -91,9 +95,10 @@ class BarChart extends Component {
                 .selectAll("circle")
                 .data(nodes)
                 .join("circle")
-                .attr("r", 5)
+                .attr("r", radius)
                 .attr("fill", d => d.color)
                 .attr('data-toggle', 'tooltip')
+                .attr('data-placement', 'top')
                 .attr('title', d => d.id)
                 .call(drag(simulation));
 
