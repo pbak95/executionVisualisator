@@ -38,7 +38,7 @@ class BarChart extends Component {
     drawGraph() {
         const height = 1700;
         const width = 1700;
-        const radius = 10;
+        const radius = 4;
 
         let drag = (simulation) => {
 
@@ -102,8 +102,32 @@ class BarChart extends Component {
                 .attr('title', d => d.id)
                 .call(drag(simulation));
 
+            // const node2 = svg.selectAll(".node")
+            //     .data(nodes)
+            //     .enter().append("g")
+            //     .attr("class", "node")
+            //     .call(drag(simulation));
+            //
+            // node2.append("circle")
+            //     .attr("r", radius);
+            //
+            // node2.append('text')
+            //     .attr('class', 'fas')
+            //     .text('\uf118');
+
+            // const node3 = svg.selectAll(".text")
+            //     .data(nodes)
+            //     .enter()
+            //     .append("text")       // Append a text element
+            //     .attr("class", "fas")  // Give it the font-awesome class
+            //     .text("\uf118");
+
             node.append("title")
                 .text(d => d.id);
+
+            node.append('text')
+                .attr('class', 'fas')
+                .text('\uf118');
 
             simulation.on("tick", () => {
                 link
@@ -116,12 +140,25 @@ class BarChart extends Component {
                     .attr("cx", d => d.x)
                     .attr("cy", d => d.y);
             });
+
+            // simulation.on("tick", () => {
+            //     link
+            //         .attr("x1", d => d.source.x)
+            //         .attr("y1", d => d.source.y)
+            //         .attr("x2", d => d.target.x)
+            //         .attr("y2", d => d.target.y);
+            //
+            //     node3.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+            // });
+
+
             return svg.node();
         });
     }
 
     render(){
         return <div>
+            <i className="fas fa-camera"></i>
             <div className="graph1">
                 <svg className="graph2" width="1700px" height="1700px"/>
             </div>
