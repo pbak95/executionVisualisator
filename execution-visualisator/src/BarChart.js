@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
 import * as d3 from 'd3';
-
+import {getImage} from '../src/ImageMap'
 
 class BarChart extends Component {
     constructor(props){
@@ -8,31 +8,7 @@ class BarChart extends Component {
     }
 
     componentDidMount() {
-        //this.drawChart();
         this.drawGraph();
-    }
-
-    drawChart() {
-        const data = [12, 5, 6, 6, 9, 10];
-        let w = 700;
-        let h = 300;
-
-
-        const svg = d3.select(".graph2")
-            .append("svg")
-            .attr("width", w)
-            .attr("height", h)
-            .style("margin-left", 100);
-
-        svg.selectAll("rect")
-            .data(data)
-            .enter()
-            .append("rect")
-            .attr("x", (d, i) => i * 70)
-            .attr("y", (d, i) => h - 10 * d)
-            .attr("width", 65)
-            .attr("height", (d, i) => d * 10)
-            .attr("fill", "green")
     }
 
     drawGraph() {
@@ -65,7 +41,7 @@ class BarChart extends Component {
                 .on("end", dragended);
         };
 
-        d3.json("http://localhost:3000/patryk_nowe.json").then((data) => {
+        d3.json("http://localhost:3000/nowy.json").then((data) => {
             const links = data.links.map(d => Object.create(d));
             const nodes = data.nodes.map(d => Object.create(d));
             // console.log('LINKS: ', links);
@@ -89,45 +65,21 @@ class BarChart extends Component {
                 .join("line")
                 .attr("stroke-width", d => Math.sqrt(d.value));
 
-            const node = svg.append("g")
-                .attr("stroke", "#fff")
-                .attr("stroke-width", 1.5)
-                .selectAll("circle")
+            const node = svg.selectAll(".node")
                 .data(nodes)
-                .join("circle")
-                .attr("r", radius)
-                .attr("fill", d => d.color)
-                .attr('data-toggle', 'tooltip')
-                .attr('data-placement', 'top')
-                .attr('title', d => d.id)
+                .enter().append("g")
+                .attr("class", "node")
                 .call(drag(simulation));
 
-            // const node2 = svg.selectAll(".node")
-            //     .data(nodes)
-            //     .enter().append("g")
-            //     .attr("class", "node")
-            //     .call(drag(simulation));
-            //
-            // node2.append("circle")
-            //     .attr("r", radius);
-            //
-            // node2.append('text')
-            //     .attr('class', 'fas')
-            //     .text('\uf118');
-
-            // const node3 = svg.selectAll(".text")
-            //     .data(nodes)
-            //     .enter()
-            //     .append("text")       // Append a text element
-            //     .attr("class", "fas")  // Give it the font-awesome class
-            //     .text("\uf118");
+            node.append("image")
+                .attr("xlink:href", function(d) { return getImage(d.type) })
+                .attr("x", "-12px")
+                .attr("y", "-12px")
+                .attr("width", "24px")
+                .attr("height", "24px");
 
             node.append("title")
                 .text(d => d.id);
-
-            node.append('text')
-                .attr('class', 'fas')
-                .text('\uf118');
 
             simulation.on("tick", () => {
                 link
@@ -136,29 +88,14 @@ class BarChart extends Component {
                     .attr("x2", d => d.target.x)
                     .attr("y2", d => d.target.y);
 
-                node
-                    .attr("cx", d => d.x)
-                    .attr("cy", d => d.y);
+                node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")";});
             });
-
-            // simulation.on("tick", () => {
-            //     link
-            //         .attr("x1", d => d.source.x)
-            //         .attr("y1", d => d.source.y)
-            //         .attr("x2", d => d.target.x)
-            //         .attr("y2", d => d.target.y);
-            //
-            //     node3.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-            // });
-
-
             return svg.node();
         });
     }
 
     render(){
         return <div>
-            <i className="fas fa-camera"></i>
             <div className="graph1">
                 <svg className="graph2" width="1700px" height="1700px"/>
             </div>
