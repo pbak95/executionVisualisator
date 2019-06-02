@@ -41,7 +41,7 @@ class BarChart extends Component {
                 .on("end", dragended);
         };
 
-        d3.json("http://localhost:3000/nowy.json").then((data) => {
+        d3.json("http://localhost:3000/log_final.json").then((data) => {
             const links = data.links.map(d => Object.create(d));
             const nodes = data.nodes.map(d => Object.create(d));
             // console.log('LINKS: ', links);
@@ -65,21 +65,21 @@ class BarChart extends Component {
                 .join("line")
                 .attr("stroke-width", d => Math.sqrt(d.value));
 
-            const node = svg.selectAll(".node")
+            const node2 = svg.selectAll(".node")
                 .data(nodes)
                 .enter().append("g")
                 .attr("class", "node")
                 .call(drag(simulation));
 
-            node.append("image")
+            node2.append("image")
                 .attr("xlink:href", function(d) { return getImage(d.type) })
                 .attr("x", "-12px")
                 .attr("y", "-12px")
                 .attr("width", "24px")
                 .attr("height", "24px");
 
-            node.append("title")
-                .text(d => d.id);
+            node2.append("title")
+                .text(d => d.desc);
 
             simulation.on("tick", () => {
                 link
@@ -88,7 +88,7 @@ class BarChart extends Component {
                     .attr("x2", d => d.target.x)
                     .attr("y2", d => d.target.y);
 
-                node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")";});
+                node2.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")";});
             });
             return svg.node();
         });

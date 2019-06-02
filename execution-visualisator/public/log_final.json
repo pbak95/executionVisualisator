@@ -1,0 +1,2223 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "pos": [
+        1,
+        6
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=/usr/lib/x86_64-linux-gnu/glib-2.0/gio-launch-desktop\nargs=libreoffice.--calc.file:///home/osboxes/BCYB/test.ods.",
+      "id": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "pos": [
+        5.25,
+        6
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=libreoffice\nargs=--calc.file:///home/osboxes/BCYB/test.ods.",
+      "id": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "pos": [
+        9.5,
+        6
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=libreoffice\nargs=--calc.file:///home/osboxes/BCYB/test.ods.",
+      "id": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "pos": [
+        13.75,
+        6
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=libreoffice\nargs=--calc.file:///home/osboxes/BCYB/test.ods.",
+      "id": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "pos": [
+        18.0,
+        6
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=/bin/sh\nargs=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods.",
+      "id": "libreoffice\nexecve\n25795"
+    },
+    {
+      "pos": [
+        23.25,
+        6
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25796(libreoffice) exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25795(libreoffice) pid=25795(libreoffice) ptid=25794(nautilus) cwd= fdlimit=1024 pgft_maj=0 pgft_min=162 vm_size=2560 vm_rss=872 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25795(libreoffice) vpid=25795(libreoffice) \n",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        24.25,
+        7
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25796(libreoffice) pid=25796(libreoffice) ptid=25795(libreoffice) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=2560 vm_rss=88 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25796(libreoffice) vpid=25796(libreoffice) \n",
+      "id": "libreoffice\nclone\n25796"
+    },
+    {
+      "pos": [
+        25.25,
+        7
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "/home/osboxes. \n",
+      "id": "libreoffice\nwrite\n25796"
+    },
+    {
+      "pos": [
+        27.5,
+        7
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "libreoffice\nprocexit\n25796"
+    },
+    {
+      "pos": [
+        28.5,
+        6
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25798(libreoffice) exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25795(libreoffice) pid=25795(libreoffice) ptid=1966(systemd) cwd= fdlimit=1024 pgft_maj=0 pgft_min=171 vm_size=2560 vm_rss=872 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25795(libreoffice) vpid=25795(libreoffice) \n",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        29.5,
+        8
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25798(libreoffice) pid=25798(libreoffice) ptid=25795(libreoffice) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=2560 vm_rss=92 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25798(libreoffice) vpid=25798(libreoffice) \n",
+      "id": "libreoffice\nclone\n25798"
+    },
+    {
+      "pos": [
+        30.5,
+        8
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=dirname\nargs=/usr/bin/libreoffice.",
+      "id": "dirname\nexecve\n25798"
+    },
+    {
+      "pos": [
+        33.75,
+        8
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "/usr/bin. \n",
+      "id": "dirname\nwrite\n25798"
+    },
+    {
+      "pos": [
+        36.0,
+        8
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "dirname\nprocexit\n25798"
+    },
+    {
+      "pos": [
+        37.0,
+        6
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25799(libreoffice) exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25795(libreoffice) pid=25795(libreoffice) ptid=1966(systemd) cwd= fdlimit=1024 pgft_maj=0 pgft_min=181 vm_size=2560 vm_rss=872 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25795(libreoffice) vpid=25795(libreoffice) \n",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        38.0,
+        9
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25799(libreoffice) pid=25799(libreoffice) ptid=25795(libreoffice) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=2560 vm_rss=92 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25799(libreoffice) vpid=25799(libreoffice) \n",
+      "id": "libreoffice\nclone\n25799"
+    },
+    {
+      "pos": [
+        39.0,
+        9
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=basename\nargs=/usr/bin/libreoffice.",
+      "id": "basename\nexecve\n25799"
+    },
+    {
+      "pos": [
+        42.25,
+        9
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "libreoffice. \n",
+      "id": "basename\nwrite\n25799"
+    },
+    {
+      "pos": [
+        44.5,
+        9
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "basename\nprocexit\n25799"
+    },
+    {
+      "pos": [
+        45.5,
+        6
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25800(libreoffice) exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25795(libreoffice) pid=25795(libreoffice) ptid=1966(systemd) cwd= fdlimit=1024 pgft_maj=0 pgft_min=189 vm_size=2560 vm_rss=872 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25795(libreoffice) vpid=25795(libreoffice) \n",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        46.5,
+        10
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25800(libreoffice) pid=25800(libreoffice) ptid=25795(libreoffice) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=2560 vm_rss=92 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25800(libreoffice) vpid=25800(libreoffice) \n",
+      "id": "libreoffice\nclone\n25800"
+    },
+    {
+      "pos": [
+        47.5,
+        10
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25801(libreoffice) exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25800(libreoffice) pid=25800(libreoffice) ptid=25795(libreoffice) cwd= fdlimit=1024 pgft_maj=0 pgft_min=20 vm_size=2560 vm_rss=92 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25800(libreoffice) vpid=25800(libreoffice) \n",
+      "id": "libreoffice\nclone\n25800"
+    },
+    {
+      "pos": [
+        48.5,
+        10
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25802(libreoffice) exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25800(libreoffice) pid=25800(libreoffice) ptid=25795(libreoffice) cwd= fdlimit=1024 pgft_maj=0 pgft_min=27 vm_size=2560 vm_rss=92 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25800(libreoffice) vpid=25800(libreoffice) \n",
+      "id": "libreoffice\nclone\n25800"
+    },
+    {
+      "pos": [
+        49.5,
+        12
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25802(libreoffice) pid=25802(libreoffice) ptid=25800(libreoffice) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=2560 vm_rss=92 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25802(libreoffice) vpid=25802(libreoffice) \n",
+      "id": "libreoffice\nclone\n25802"
+    },
+    {
+      "pos": [
+        50.5,
+        12
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=sed\nargs=s/.*libreoffice",
+      "id": "sed\nexecve\n25802"
+    },
+    {
+      "pos": [
+        52.75,
+        11
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25801(libreoffice) pid=25801(libreoffice) ptid=25800(libreoffice) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=2560 vm_rss=92 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25801(libreoffice) vpid=25801(libreoffice) \n",
+      "id": "libreoffice\nclone\n25801"
+    },
+    {
+      "pos": [
+        53.75,
+        11
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=ls\nargs=-l.libreoffice.",
+      "id": "ls\nexecve\n25801"
+    },
+    {
+      "pos": [
+        56.0,
+        11
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "lrwxrwxrwx 1 root root 34 Oct 23  2018 libreoffice -> ../lib/libreoffice/program \n",
+      "id": "ls\nwrite\n25801"
+    },
+    {
+      "pos": [
+        62.25,
+        11
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "ls\nprocexit\n25801"
+    },
+    {
+      "pos": [
+        63.25,
+        12
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "../lib/libreoffice/program/soffice. \n",
+      "id": "sed\nwrite\n25802"
+    },
+    {
+      "pos": [
+        66.5,
+        12
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "sed\nprocexit\n25802"
+    },
+    {
+      "pos": [
+        67.5,
+        10
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "libreoffice\nprocexit\n25800"
+    },
+    {
+      "pos": [
+        68.5,
+        6
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25803(libreoffice) exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25795(libreoffice) pid=25795(libreoffice) ptid=1966(systemd) cwd= fdlimit=1024 pgft_maj=0 pgft_min=200 vm_size=2560 vm_rss=872 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25795(libreoffice) vpid=25795(libreoffice) \n",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        69.5,
+        13
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25803(libreoffice) pid=25803(libreoffice) ptid=25795(libreoffice) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=2560 vm_rss=96 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25803(libreoffice) vpid=25803(libreoffice) \n",
+      "id": "libreoffice\nclone\n25803"
+    },
+    {
+      "pos": [
+        70.5,
+        13
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=dirname\nargs=../lib/libreoffice/program/soffice.",
+      "id": "dirname\nexecve\n25803"
+    },
+    {
+      "pos": [
+        73.75,
+        13
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "../lib/libreoffice/program. \n",
+      "id": "dirname\nwrite\n25803"
+    },
+    {
+      "pos": [
+        77.0,
+        13
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "dirname\nprocexit\n25803"
+    },
+    {
+      "pos": [
+        78.0,
+        6
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25804(libreoffice) exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25795(libreoffice) pid=25795(libreoffice) ptid=1966(systemd) cwd= fdlimit=1024 pgft_maj=0 pgft_min=211 vm_size=2560 vm_rss=1664 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25795(libreoffice) vpid=25795(libreoffice) \n",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        79.0,
+        14
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25804(libreoffice) pid=25804(libreoffice) ptid=25795(libreoffice) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=2560 vm_rss=96 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25804(libreoffice) vpid=25804(libreoffice) \n",
+      "id": "libreoffice\nclone\n25804"
+    },
+    {
+      "pos": [
+        80.0,
+        14
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "/usr/lib/libreoffice/program. \n",
+      "id": "libreoffice\nwrite\n25804"
+    },
+    {
+      "pos": [
+        83.25,
+        14
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "libreoffice\nprocexit\n25804"
+    },
+    {
+      "pos": [
+        84.25,
+        6
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25806(libreoffice) exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25795(libreoffice) pid=25795(libreoffice) ptid=1966(systemd) cwd= fdlimit=1024 pgft_maj=0 pgft_min=234 vm_size=2560 vm_rss=1664 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25795(libreoffice) vpid=25795(libreoffice) \n",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        85.25,
+        15
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25806(libreoffice) pid=25806(libreoffice) ptid=25795(libreoffice) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=2560 vm_rss=100 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25806(libreoffice) vpid=25806(libreoffice) \n",
+      "id": "libreoffice\nclone\n25806"
+    },
+    {
+      "pos": [
+        86.25,
+        15
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=grep\nargs=-q.cc.",
+      "id": "grep\nexecve\n25806"
+    },
+    {
+      "pos": [
+        88.5,
+        15
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=256",
+      "id": "grep\nprocexit\n25806"
+    },
+    {
+      "pos": [
+        89.5,
+        6
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25807(libreoffice) exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25795(libreoffice) pid=25795(libreoffice) ptid=1966(systemd) cwd= fdlimit=1024 pgft_maj=0 pgft_min=243 vm_size=2560 vm_rss=1664 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25795(libreoffice) vpid=25795(libreoffice) \n",
+      "id": "libreoffice\nclone\n25795"
+    },
+    {
+      "pos": [
+        90.5,
+        16
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/bin/sh args=/usr/bin/libreoffice.--calc.file:///home/osboxes/BCYB/test.ods. tid=25807(libreoffice) pid=25807(libreoffice) ptid=25795(libreoffice) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=2560 vm_rss=100 vm_swap=0 comm=libreoffice cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25807(libreoffice) vpid=25807(libreoffice) \n",
+      "id": "libreoffice\nclone\n25807"
+    },
+    {
+      "pos": [
+        91.5,
+        16
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=uname\nargs=-s.",
+      "id": "uname\nexecve\n25807"
+    },
+    {
+      "pos": [
+        93.75,
+        16
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "Linux. \n",
+      "id": "uname\nwrite\n25807"
+    },
+    {
+      "pos": [
+        96.0,
+        16
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "uname\nprocexit\n25807"
+    },
+    {
+      "pos": [
+        97.0,
+        6
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=/usr/lib/libreoffice/program/oosplash\nargs=--calc.file:///home/osboxes/BCYB/test.ods.",
+      "id": "oosplash\nexecve\n25795"
+    },
+    {
+      "pos": [
+        101.25,
+        6
+      ],
+      "color": "green",
+      "type": "mkdir",
+      "desc": "/home/osboxes/.config",
+      "id": "oosplash\nmkdir\n25795"
+    },
+    {
+      "pos": [
+        104.5,
+        6
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25809(oosplash) exe=/usr/lib/libreoffice/program/oosplash args=--calc.file:///home/osboxes/BCYB/test.ods. tid=25795(oosplash) pid=25795(oosplash) ptid=1966(systemd) cwd= fdlimit=1024 pgft_maj=0 pgft_min=777 vm_size=52056 vm_rss=6060 vm_swap=0 comm=oosplash cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25795(oosplash) vpid=25795(oosplash) \n",
+      "id": "oosplash\nclone\n25795"
+    },
+    {
+      "pos": [
+        105.5,
+        17
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/usr/lib/libreoffice/program/oosplash args=--calc.file:///home/osboxes/BCYB/test.ods. tid=25809(oosplash) pid=25795(oosplash) ptid=1966(systemd) cwd= fdlimit=1024 pgft_maj=0 pgft_min=0 vm_size=52056 vm_rss=6060 vm_swap=0 comm=oosplash cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25809(oosplash) vpid=25795(oosplash) \n",
+      "id": "oosplash\nclone\n25809"
+    },
+    {
+      "pos": [
+        106.5,
+        17
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25810(osl_executeProc) exe=/usr/lib/libreoffice/program/oosplash args=--calc.file:///home/osboxes/BCYB/test.ods. tid=25809(oosplash) pid=25795(oosplash) ptid=1966(systemd) cwd= fdlimit=1024 pgft_maj=0 pgft_min=2 vm_size=117592 vm_rss=6060 vm_swap=0 comm=osl_executeProc cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25809(oosplash) vpid=25795(oosplash) \n",
+      "id": "oosplash\nclone\n25809"
+    },
+    {
+      "pos": [
+        107.5,
+        18
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/usr/lib/libreoffice/program/oosplash args=--calc.file:///home/osboxes/BCYB/test.ods. tid=25810(osl_executeProc) pid=25810(osl_executeProc) ptid=25809(oosplash) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=117592 vm_rss=1096 vm_swap=0 comm=osl_executeProc cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25810(osl_executeProc) vpid=25810(osl_executeProc) \n",
+      "id": "osl_executeProc\nclone\n25810"
+    },
+    {
+      "pos": [
+        108.5,
+        18
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=/usr/lib/libreoffice/program/javaldx\nargs=-env:INIFILENAME=vnd.sun.star.pathname:/usr/lib/libreoffice/program/redirectrc.",
+      "id": "javaldx\nexecve\n25810"
+    },
+    {
+      "pos": [
+        114.75,
+        18
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "javaldx: Could not find a Java Runtime Environment!. \n",
+      "id": "javaldx\nwrite\n25810"
+    },
+    {
+      "pos": [
+        119.0,
+        4
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "May 26 18:10:14 osboxes org.gnome.Nautilus[2006]: javaldx: Could not find a Java \n",
+      "id": "rs:main\nwrite\n970"
+    },
+    {
+      "pos": [
+        125.25,
+        18
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "Please ensure that a JVM and the package libreoffice-java-common. \nis installed.. \nIf it is already installed then try removing ~/.libreoffice/3/user/config/javase \n",
+      "id": "javaldx\nwrite\n25810"
+    },
+    {
+      "pos": [
+        131.5,
+        18
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=65280",
+      "id": "javaldx\nprocexit\n25810"
+    },
+    {
+      "pos": [
+        132.5,
+        6
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "Warning: failed to read path from javaldx. \n",
+      "id": "oosplash\nwrite\n25795"
+    },
+    {
+      "pos": [
+        136.75,
+        6
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25812(oosplash) exe=/usr/lib/libreoffice/program/oosplash args=--calc.file:///home/osboxes/BCYB/test.ods. tid=25795(oosplash) pid=25795(oosplash) ptid=1966(systemd) cwd= fdlimit=1024 pgft_maj=0 pgft_min=796 vm_size=125788 vm_rss=6060 vm_swap=0 comm=oosplash cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25795(oosplash) vpid=25795(oosplash) \n",
+      "id": "oosplash\nclone\n25795"
+    },
+    {
+      "pos": [
+        137.75,
+        17
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "oosplash\nprocexit\n25809"
+    },
+    {
+      "pos": [
+        138.75,
+        19
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/usr/lib/libreoffice/program/oosplash args=--calc.file:///home/osboxes/BCYB/test.ods. tid=25812(oosplash) pid=25795(oosplash) ptid=1966(systemd) cwd= fdlimit=1024 pgft_maj=0 pgft_min=0 vm_size=125788 vm_rss=6128 vm_swap=0 comm=oosplash cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25812(oosplash) vpid=25795(oosplash) \n",
+      "id": "oosplash\nclone\n25812"
+    },
+    {
+      "pos": [
+        139.75,
+        19
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25813(osl_executeProc) exe=/usr/lib/libreoffice/program/oosplash args=--calc.file:///home/osboxes/BCYB/test.ods. tid=25812(oosplash) pid=25795(oosplash) ptid=1966(systemd) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=125788 vm_rss=6128 vm_swap=0 comm=osl_executeProc cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25812(oosplash) vpid=25795(oosplash) \n",
+      "id": "oosplash\nclone\n25812"
+    },
+    {
+      "pos": [
+        140.75,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0 exe=/usr/lib/libreoffice/program/oosplash args=--calc.file:///home/osboxes/BCYB/test.ods. tid=25813(osl_executeProc) pid=25813(osl_executeProc) ptid=25812(oosplash) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=125788 vm_rss=1108 vm_swap=0 comm=osl_executeProc cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25813(osl_executeProc) vpid=25813(osl_executeProc) \n",
+      "id": "osl_executeProc\nclone\n25813"
+    },
+    {
+      "pos": [
+        141.75,
+        20
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=/usr/lib/libreoffice/program/soffice.bin\nargs=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5.",
+      "id": "soffice.bin\nexecve\n25813"
+    },
+    {
+      "pos": [
+        147.0,
+        4
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "May 26 18:10:14 osboxes org.gnome.Nautilus[2006]: Please ensure that a JVM and t \n",
+      "id": "rs:main\nwrite\n970"
+    },
+    {
+      "pos": [
+        153.25,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25814(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=1024 pgft_maj=0 pgft_min=2838 vm_size=266312 vm_rss=44272 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        154.25,
+        21
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25814(soffice.bin) pid=25814(soffice.bin) ptid=25813(soffice.bin) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=266312 vm_rss=7892 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25814(soffice.bin) vpid=25814(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25814"
+    },
+    {
+      "pos": [
+        155.25,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25816(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=0 pgft_min=6501 vm_size=322760 vm_rss=65848 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        156.25,
+        22
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25816(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=0 pgft_min=0 vm_size=322760 vm_rss=65848 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25816(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25816"
+    },
+    {
+      "pos": [
+        157.25,
+        20
+      ],
+      "color": "green",
+      "type": "bind",
+      "desc": "/tmp/OSL_PIPE_1000_SingleOfficeIPC_f56614c52512aadbec07eb691a978fb",
+      "id": "soffice.bin\nbind\n25813"
+    },
+    {
+      "pos": [
+        162.5,
+        20
+      ],
+      "color": "green",
+      "type": "listen",
+      "desc": "",
+      "id": "soffice.bin\nlisten\n25813"
+    },
+    {
+      "pos": [
+        163.5,
+        21
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "VENDOR.VMware, Inc..RENDERER.llvmpipe (LLVM 7.0, 256 bits).VERSION.3.1 Mesa 18.2 \n",
+      "id": "soffice.bin\nwrite\n25814"
+    },
+    {
+      "pos": [
+        169.75,
+        21
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "soffice.bin\nprocexit\n25814"
+    },
+    {
+      "pos": [
+        170.75,
+        20
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "10%. \n20%. \n25%. \n",
+      "id": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "pos": [
+        173.0,
+        20
+      ],
+      "color": "green",
+      "type": "pwrite",
+      "desc": "[Lockdata]..User",
+      "id": "soffice.bin\npwrite\n25813"
+    },
+    {
+      "pos": [
+        175.25,
+        20
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "30%. \n35%. \n40%. \n50%. \n55%. \n",
+      "id": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "pos": [
+        177.5,
+        22
+      ],
+      "color": "green",
+      "type": "pwrite",
+      "desc": "<?xml version",
+      "id": "soffice.bin\npwrite\n25816"
+    },
+    {
+      "pos": [
+        179.75,
+        22
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "soffice.bin\nprocexit\n25816"
+    },
+    {
+      "pos": [
+        180.75,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25824(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=0 pgft_min=11165 vm_size=860196 vm_rss=97332 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        181.75,
+        23
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25824(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=0 pgft_min=0 vm_size=860196 vm_rss=97332 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25824(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25824"
+    },
+    {
+      "pos": [
+        182.75,
+        20
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "60%. \n75%. \n80%. \n100%. \nend. \n",
+      "id": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "pos": [
+        185.0,
+        20
+      ],
+      "color": "green",
+      "type": "pwrite",
+      "desc": ",osboxes,osboxes,26.05.2019 18:10,file:///home/osboxes/.config/libreoffice/4; \n,osboxes,osboxes,26.05.2019 18:10,file:///home/osboxes/.config/libreoffice/4; \n",
+      "id": "soffice.bin\npwrite\n25813"
+    },
+    {
+      "pos": [
+        190.25,
+        20
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "PK...........N.l9.............mimetypeapplication/vnd.oasis.opendocument.spreads \n",
+      "id": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "pos": [
+        196.5,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25825(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=1 pgft_min=12480 vm_size=885612 vm_rss=120308 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        197.5,
+        24
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25825(soffice.bin) pid=25825(soffice.bin) ptid=25813(soffice.bin) cwd= fdlimit=4096 pgft_maj=0 pgft_min=1 vm_size=885612 vm_rss=33560 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25825(soffice.bin) vpid=25825(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25825"
+    },
+    {
+      "pos": [
+        198.5,
+        24
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=sh\nargs=-c.paperconf",
+      "id": "sh\nexecve\n25825"
+    },
+    {
+      "pos": [
+        200.75,
+        24
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "sh\nprocexit\n25825"
+    },
+    {
+      "pos": [
+        201.75,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25828(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=4 pgft_min=14143 vm_size=982616 vm_rss=131708 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        202.75,
+        25
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25828(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=0 pgft_min=0 vm_size=982616 vm_rss=131708 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25828(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25828"
+    },
+    {
+      "pos": [
+        203.75,
+        3
+      ],
+      "color": "green",
+      "type": "accept",
+      "desc": "ffffa055246cc000->ffffa05509acc400",
+      "id": "cupsd\naccept\n767"
+    },
+    {
+      "pos": [
+        207.0,
+        3
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "6BC42D15A05D55918FD8D472404DBC81 \n",
+      "id": "cupsd\nwrite\n767"
+    },
+    {
+      "pos": [
+        210.25,
+        25
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "W \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \nW \n",
+      "id": "soffice.bin\nwrite\n25828"
+    },
+    {
+      "pos": [
+        212.5,
+        25
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "soffice.bin\nprocexit\n25828"
+    },
+    {
+      "pos": [
+        213.5,
+        23
+      ],
+      "color": "green",
+      "type": "pwrite",
+      "desc": "<?xml version",
+      "id": "soffice.bin\npwrite\n25824"
+    },
+    {
+      "pos": [
+        215.75,
+        23
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "soffice.bin\nprocexit\n25824"
+    },
+    {
+      "pos": [
+        216.75,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25835(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=20 pgft_min=15716 vm_size=1007524 vm_rss=150776 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        217.75,
+        26
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25835(soffice.bin) pid=25835(soffice.bin) ptid=25813(soffice.bin) cwd= fdlimit=4096 pgft_maj=0 pgft_min=1 vm_size=1007524 vm_rss=39208 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25835(soffice.bin) vpid=25835(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25835"
+    },
+    {
+      "pos": [
+        218.75,
+        26
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25836(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25835(soffice.bin) pid=25835(soffice.bin) ptid=25813(soffice.bin) cwd= fdlimit=4096 pgft_maj=0 pgft_min=44 vm_size=1007524 vm_rss=39208 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25835(soffice.bin) vpid=25835(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25835"
+    },
+    {
+      "pos": [
+        219.75,
+        26
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "soffice.bin\nprocexit\n25835"
+    },
+    {
+      "pos": [
+        220.75,
+        27
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25836(soffice.bin) pid=25836(soffice.bin) ptid=1966(systemd) cwd= fdlimit=4096 pgft_maj=0 pgft_min=1 vm_size=1007524 vm_rss=39208 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25836(soffice.bin) vpid=25836(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25836"
+    },
+    {
+      "pos": [
+        221.75,
+        27
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=/usr/bin/gpg\nargs=--version.",
+      "id": "gpg\nexecve\n25836"
+    },
+    {
+      "pos": [
+        224.0,
+        27
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "gpg (GnuPG) 2.2.8.libgcrypt 1.8.3.Copyright (C) 2018 Free Software Foundation, I \n",
+      "id": "gpg\nwrite\n25836"
+    },
+    {
+      "pos": [
+        230.25,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25837(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=20 pgft_min=15735 vm_size=1007524 vm_rss=150776 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        231.25,
+        27
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "gpg\nprocexit\n25836"
+    },
+    {
+      "pos": [
+        232.25,
+        28
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25837(soffice.bin) pid=25837(soffice.bin) ptid=25813(soffice.bin) cwd= fdlimit=4096 pgft_maj=0 pgft_min=1 vm_size=1007524 vm_rss=39208 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25837(soffice.bin) vpid=25837(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25837"
+    },
+    {
+      "pos": [
+        233.25,
+        28
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25838(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25837(soffice.bin) pid=25837(soffice.bin) ptid=25813(soffice.bin) cwd= fdlimit=4096 pgft_maj=0 pgft_min=44 vm_size=1007524 vm_rss=39208 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25837(soffice.bin) vpid=25837(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25837"
+    },
+    {
+      "pos": [
+        234.25,
+        28
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "soffice.bin\nprocexit\n25837"
+    },
+    {
+      "pos": [
+        235.25,
+        29
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25838(soffice.bin) pid=25838(soffice.bin) ptid=1966(systemd) cwd= fdlimit=4096 pgft_maj=0 pgft_min=1 vm_size=1007524 vm_rss=39208 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25838(soffice.bin) vpid=25838(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25838"
+    },
+    {
+      "pos": [
+        236.25,
+        29
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=/usr/bin/gpgsm\nargs=--version.",
+      "id": "gpgsm\nexecve\n25838"
+    },
+    {
+      "pos": [
+        238.5,
+        29
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "gpgsm (GnuPG) 2.2.8.libgcrypt 1.8.3.libksba 1.3.5-unknown.Copyright (C) 2018 Fre \n",
+      "id": "gpgsm\nwrite\n25838"
+    },
+    {
+      "pos": [
+        244.75,
+        29
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "gpgsm\nprocexit\n25838"
+    },
+    {
+      "pos": [
+        245.75,
+        20
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "<?xml version",
+      "id": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "pos": [
+        248.0,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25843(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=20 pgft_min=23253 vm_size=1028824 vm_rss=175648 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        249.0,
+        30
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25843(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=0 pgft_min=0 vm_size=1028824 vm_rss=175648 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25843(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25843"
+    },
+    {
+      "pos": [
+        250.0,
+        20
+      ],
+      "color": "green",
+      "type": "pwrite",
+      "desc": "1 \n",
+      "id": "soffice.bin\npwrite\n25813"
+    },
+    {
+      "pos": [
+        252.25,
+        20
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "<?xml version",
+      "id": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "pos": [
+        254.5,
+        30
+      ],
+      "color": "green",
+      "type": "pwrite",
+      "desc": "<?xml version",
+      "id": "soffice.bin\npwrite\n25843"
+    },
+    {
+      "pos": [
+        256.75,
+        30
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "soffice.bin\nprocexit\n25843"
+    },
+    {
+      "pos": [
+        257.75,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25845(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=20 pgft_min=26626 vm_size=1026336 vm_rss=184248 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        258.75,
+        31
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25845(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=0 pgft_min=0 vm_size=1026336 vm_rss=184248 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25845(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25845"
+    },
+    {
+      "pos": [
+        259.75,
+        31
+      ],
+      "color": "green",
+      "type": "pwrite",
+      "desc": "<?xml version",
+      "id": "soffice.bin\npwrite\n25845"
+    },
+    {
+      "pos": [
+        262.0,
+        31
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "soffice.bin\nprocexit\n25845"
+    },
+    {
+      "pos": [
+        263.0,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25846(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=20 pgft_min=26628 vm_size=1026336 vm_rss=184348 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        264.0,
+        32
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25846(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=0 pgft_min=0 vm_size=1026336 vm_rss=184348 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25846(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25846"
+    },
+    {
+      "pos": [
+        265.0,
+        32
+      ],
+      "color": "green",
+      "type": "pwrite",
+      "desc": "<?xml version",
+      "id": "soffice.bin\npwrite\n25846"
+    },
+    {
+      "pos": [
+        267.25,
+        32
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "soffice.bin\nprocexit\n25846"
+    },
+    {
+      "pos": [
+        268.25,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25847(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=20 pgft_min=26629 vm_size=1026336 vm_rss=184348 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        269.25,
+        33
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25847(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=0 pgft_min=0 vm_size=1026336 vm_rss=184348 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25847(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25847"
+    },
+    {
+      "pos": [
+        270.25,
+        33
+      ],
+      "color": "green",
+      "type": "pwrite",
+      "desc": "<?xml version",
+      "id": "soffice.bin\npwrite\n25847"
+    },
+    {
+      "pos": [
+        272.5,
+        33
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "soffice.bin\nprocexit\n25847"
+    },
+    {
+      "pos": [
+        273.5,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25848(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=20 pgft_min=26777 vm_size=1027644 vm_rss=185776 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        274.5,
+        34
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25848(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=0 pgft_min=0 vm_size=1027644 vm_rss=185776 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25848(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25848"
+    },
+    {
+      "pos": [
+        275.5,
+        34
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25849(osl_executeProc) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25848(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=0 pgft_min=0 vm_size=1027644 vm_rss=185776 vm_swap=0 comm=osl_executeProc cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25848(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25848"
+    },
+    {
+      "pos": [
+        276.5,
+        35
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25849(osl_executeProc) pid=25849(osl_executeProc) ptid=25848(soffice.bin) cwd= fdlimit=4096 pgft_maj=0 pgft_min=1 vm_size=1027644 vm_rss=60352 vm_swap=0 comm=osl_executeProc cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=1000 gid=1000 vtid=25849(osl_executeProc) vpid=25849(osl_executeProc) \n",
+      "id": "osl_executeProc\nclone\n25849"
+    },
+    {
+      "pos": [
+        277.5,
+        35
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=/home/osboxes/scripts/shellcode\nargs=",
+      "id": "shellcode\nexecve\n25849"
+    },
+    {
+      "pos": [
+        280.75,
+        35
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=/bin/nc\nargs=-l.9999.",
+      "id": "nc\nexecve\n25849"
+    },
+    {
+      "pos": [
+        283.0,
+        35
+      ],
+      "color": "green",
+      "type": "bind",
+      "desc": "0.0.0.0:9999",
+      "id": "nc\nbind\n25849"
+    },
+    {
+      "pos": [
+        285.25,
+        35
+      ],
+      "color": "green",
+      "type": "listen",
+      "desc": "",
+      "id": "nc\nlisten\n25849"
+    },
+    {
+      "pos": [
+        286.25,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25850(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=20 pgft_min=28081 vm_size=1028120 vm_rss=186412 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        287.25,
+        36
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25850(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=0 pgft_min=0 vm_size=1028120 vm_rss=186412 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25850(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25850"
+    },
+    {
+      "pos": [
+        288.25,
+        36
+      ],
+      "color": "green",
+      "type": "pwrite",
+      "desc": "<?xml version",
+      "id": "soffice.bin\npwrite\n25850"
+    },
+    {
+      "pos": [
+        290.5,
+        36
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "soffice.bin\nprocexit\n25850"
+    },
+    {
+      "pos": [
+        291.5,
+        20
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25851(soffice.bin) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25813(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=20 pgft_min=29461 vm_size=1028120 vm_rss=186552 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25813(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25813"
+    },
+    {
+      "pos": [
+        292.5,
+        37
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=/usr/lib/libreoffice/program/soffice.bin args=--calc.file:///home/osboxes/BCYB/test.ods.--splash-pipe=5. tid=25851(soffice.bin) pid=25813(soffice.bin) ptid=25812(oosplash) cwd= fdlimit=4096 pgft_maj=0 pgft_min=0 vm_size=1028120 vm_rss=186552 vm_swap=0 comm=soffice.bin cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=41990659(CLONE_FILES|CLONE_FS|CLONE_PARENT_SETTID|CLONE_SIGHAND|CLONE_SYSVSEM|CLONE_THREAD|CLONE_VM|CLONE_CHILD_CLEARTID|CLONE_SETTLS) uid=1000 gid=1000 vtid=25851(soffice.bin) vpid=25813(soffice.bin) \n",
+      "id": "soffice.bin\nclone\n25851"
+    },
+    {
+      "pos": [
+        293.5,
+        37
+      ],
+      "color": "green",
+      "type": "pwrite",
+      "desc": "<?xml version",
+      "id": "soffice.bin\npwrite\n25851"
+    },
+    {
+      "pos": [
+        295.75,
+        37
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "soffice.bin\nprocexit\n25851"
+    },
+    {
+      "pos": [
+        296.75,
+        5
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "chmod 777 BCYB/ \n................[2Pkill -9 25584 \n.............chmod 777 BCYB/ \n................[2Pkill -9 25584 \n.......[1P25584 \n............netstat -tulpn \n",
+      "id": "bash\nwrite\n24584"
+    },
+    {
+      "pos": [
+        300.0,
+        5
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=25854(bash) exe=bash args= tid=24584(bash) pid=24584(bash) ptid=24583(su) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1048 vm_size=20352 vm_rss=3808 vm_swap=0 comm=bash cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=0 gid=0 vtid=24584(bash) vpid=24584(bash) \n",
+      "id": "bash\nclone\n24584"
+    },
+    {
+      "pos": [
+        301.0,
+        38
+      ],
+      "color": "blue",
+      "type": "clone",
+      "desc": " res=0(<NA>) exe=bash args= tid=25854(bash) pid=25854(bash) ptid=24584(bash) cwd= fdlimit=1024 pgft_maj=0 pgft_min=1 vm_size=20352 vm_rss=488 vm_swap=0 comm=bash cgroups=cpuset=/.cpu=/.cpuacct=/.io=/.memory=/user.slice/user-1000.slice/user@1000.se... flags=25165824(CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID) uid=0 gid=0 vtid=25854(bash) vpid=25854(bash) \n",
+      "id": "bash\nclone\n25854"
+    },
+    {
+      "pos": [
+        302.0,
+        38
+      ],
+      "color": "green",
+      "type": "execve",
+      "desc": "exe=netstat\nargs=-tulpn.",
+      "id": "netstat\nexecve\n25854"
+    },
+    {
+      "pos": [
+        304.25,
+        38
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": "Active Internet connections (only servers). \nProto Recv-Q Send-Q Local Address           Foreign Address         State        \ntcp        0      0 0.0.0.0:9999            0.0.0.0:*               LISTEN       \ntcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN       \ntcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN       \ntcp6       0      0 ::1:631                 :::*                    LISTEN       \nudp        0      0 127.0.0.53:53           0.0.0.0:*                            \nudp        0      0 0.0.0.0:68              0.0.0.0:*                            \nudp        0      0 0.0.0.0:49448           0.0.0.0:*                            \nudp        0      0 0.0.0.0:631             0.0.0.0:*                            \nudp        0      0 0.0.0.0:5353            0.0.0.0:*                            \nudp6       0      0 :::54027                :::*                                 \nudp6       0      0 :::5353                 :::*                                 \n",
+      "id": "netstat\nwrite\n25854"
+    },
+    {
+      "pos": [
+        310.5,
+        38
+      ],
+      "color": "green",
+      "type": "procexit",
+      "desc": "status=0",
+      "id": "netstat\nprocexit\n25854"
+    },
+    {
+      "pos": [
+        311.5,
+        5
+      ],
+      "color": "green",
+      "type": "write",
+      "desc": ".]0;root@osboxes: /home/osboxes.root@osboxes:/home/osboxes#  \n",
+      "id": "bash\nwrite\n24584"
+    },
+    {
+      "pos": [
+        0,
+        0
+      ],
+      "color": "w",
+      "id": "\n\n"
+    },
+    {
+      "pos": [
+        0,
+        41
+      ],
+      "color": "w",
+      "id": "\n\n"
+    },
+    {
+      "pos": [
+        330.75,
+        0
+      ],
+      "color": "w",
+      "id": "\n\n"
+    },
+    {
+      "pos": [
+        330.75,
+        41
+      ],
+      "color": "w",
+      "id": "\n\n"
+    }
+  ],
+  "links": [
+    {
+      "source": "gio-launch-desk\nexecve\n25795",
+      "target": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "source": "gio-launch-desk\nexecve\n25795",
+      "target": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "source": "gio-launch-desk\nexecve\n25795",
+      "target": "gio-launch-desk\nexecve\n25795"
+    },
+    {
+      "source": "gio-launch-desk\nexecve\n25795",
+      "target": "libreoffice\nexecve\n25795"
+    },
+    {
+      "source": "libreoffice\nexecve\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25796"
+    },
+    {
+      "source": "libreoffice\nclone\n25796",
+      "target": "libreoffice\nwrite\n25796"
+    },
+    {
+      "source": "libreoffice\nwrite\n25796",
+      "target": "libreoffice\nprocexit\n25796"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25798"
+    },
+    {
+      "source": "libreoffice\nclone\n25798",
+      "target": "dirname\nexecve\n25798"
+    },
+    {
+      "source": "dirname\nexecve\n25798",
+      "target": "dirname\nwrite\n25798"
+    },
+    {
+      "source": "dirname\nwrite\n25798",
+      "target": "dirname\nprocexit\n25798"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25799"
+    },
+    {
+      "source": "libreoffice\nclone\n25799",
+      "target": "basename\nexecve\n25799"
+    },
+    {
+      "source": "basename\nexecve\n25799",
+      "target": "basename\nwrite\n25799"
+    },
+    {
+      "source": "basename\nwrite\n25799",
+      "target": "basename\nprocexit\n25799"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25800"
+    },
+    {
+      "source": "libreoffice\nclone\n25800",
+      "target": "libreoffice\nclone\n25800"
+    },
+    {
+      "source": "libreoffice\nclone\n25800",
+      "target": "libreoffice\nclone\n25800"
+    },
+    {
+      "source": "libreoffice\nclone\n25800",
+      "target": "libreoffice\nclone\n25801"
+    },
+    {
+      "source": "libreoffice\nclone\n25800",
+      "target": "libreoffice\nprocexit\n25800"
+    },
+    {
+      "source": "libreoffice\nclone\n25800",
+      "target": "libreoffice\nclone\n25802"
+    },
+    {
+      "source": "libreoffice\nclone\n25802",
+      "target": "sed\nexecve\n25802"
+    },
+    {
+      "source": "sed\nexecve\n25802",
+      "target": "sed\nwrite\n25802"
+    },
+    {
+      "source": "libreoffice\nclone\n25801",
+      "target": "ls\nexecve\n25801"
+    },
+    {
+      "source": "ls\nexecve\n25801",
+      "target": "ls\nwrite\n25801"
+    },
+    {
+      "source": "ls\nwrite\n25801",
+      "target": "ls\nprocexit\n25801"
+    },
+    {
+      "source": "sed\nwrite\n25802",
+      "target": "sed\nprocexit\n25802"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25803"
+    },
+    {
+      "source": "libreoffice\nclone\n25803",
+      "target": "dirname\nexecve\n25803"
+    },
+    {
+      "source": "dirname\nexecve\n25803",
+      "target": "dirname\nwrite\n25803"
+    },
+    {
+      "source": "dirname\nwrite\n25803",
+      "target": "dirname\nprocexit\n25803"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25804"
+    },
+    {
+      "source": "libreoffice\nclone\n25804",
+      "target": "libreoffice\nwrite\n25804"
+    },
+    {
+      "source": "libreoffice\nwrite\n25804",
+      "target": "libreoffice\nprocexit\n25804"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25806"
+    },
+    {
+      "source": "libreoffice\nclone\n25806",
+      "target": "grep\nexecve\n25806"
+    },
+    {
+      "source": "grep\nexecve\n25806",
+      "target": "grep\nprocexit\n25806"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "oosplash\nexecve\n25795"
+    },
+    {
+      "source": "libreoffice\nclone\n25795",
+      "target": "libreoffice\nclone\n25807"
+    },
+    {
+      "source": "libreoffice\nclone\n25807",
+      "target": "uname\nexecve\n25807"
+    },
+    {
+      "source": "uname\nexecve\n25807",
+      "target": "uname\nwrite\n25807"
+    },
+    {
+      "source": "uname\nwrite\n25807",
+      "target": "uname\nprocexit\n25807"
+    },
+    {
+      "source": "oosplash\nexecve\n25795",
+      "target": "oosplash\nmkdir\n25795"
+    },
+    {
+      "source": "oosplash\nmkdir\n25795",
+      "target": "oosplash\nclone\n25795"
+    },
+    {
+      "source": "oosplash\nclone\n25795",
+      "target": "oosplash\nwrite\n25795"
+    },
+    {
+      "source": "oosplash\nclone\n25795",
+      "target": "oosplash\nclone\n25809"
+    },
+    {
+      "source": "oosplash\nclone\n25809",
+      "target": "oosplash\nclone\n25809"
+    },
+    {
+      "source": "oosplash\nclone\n25809",
+      "target": "oosplash\nprocexit\n25809"
+    },
+    {
+      "source": "oosplash\nclone\n25809",
+      "target": "osl_executeProc\nclone\n25810"
+    },
+    {
+      "source": "osl_executeProc\nclone\n25810",
+      "target": "javaldx\nexecve\n25810"
+    },
+    {
+      "source": "javaldx\nexecve\n25810",
+      "target": "javaldx\nwrite\n25810"
+    },
+    {
+      "source": "javaldx\nwrite\n25810",
+      "target": "javaldx\nwrite\n25810"
+    },
+    {
+      "source": "rs:main\nwrite\n970",
+      "target": "rs:main\nwrite\n970"
+    },
+    {
+      "source": "javaldx\nwrite\n25810",
+      "target": "javaldx\nprocexit\n25810"
+    },
+    {
+      "source": "oosplash\nwrite\n25795",
+      "target": "oosplash\nclone\n25795"
+    },
+    {
+      "source": "oosplash\nclone\n25795",
+      "target": "oosplash\nclone\n25812"
+    },
+    {
+      "source": "oosplash\nclone\n25812",
+      "target": "oosplash\nclone\n25812"
+    },
+    {
+      "source": "oosplash\nclone\n25812",
+      "target": "osl_executeProc\nclone\n25813"
+    },
+    {
+      "source": "osl_executeProc\nclone\n25813",
+      "target": "soffice.bin\nexecve\n25813"
+    },
+    {
+      "source": "soffice.bin\nexecve\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25814"
+    },
+    {
+      "source": "soffice.bin\nclone\n25814",
+      "target": "soffice.bin\nwrite\n25814"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nbind\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25816"
+    },
+    {
+      "source": "soffice.bin\nclone\n25816",
+      "target": "soffice.bin\npwrite\n25816"
+    },
+    {
+      "source": "soffice.bin\nbind\n25813",
+      "target": "soffice.bin\nlisten\n25813"
+    },
+    {
+      "source": "soffice.bin\nlisten\n25813",
+      "target": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25814",
+      "target": "soffice.bin\nprocexit\n25814"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25813",
+      "target": "soffice.bin\npwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25813",
+      "target": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25816",
+      "target": "soffice.bin\nprocexit\n25816"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25824"
+    },
+    {
+      "source": "soffice.bin\nclone\n25824",
+      "target": "soffice.bin\npwrite\n25824"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25813",
+      "target": "soffice.bin\npwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25813",
+      "target": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25825"
+    },
+    {
+      "source": "soffice.bin\nclone\n25825",
+      "target": "sh\nexecve\n25825"
+    },
+    {
+      "source": "sh\nexecve\n25825",
+      "target": "sh\nprocexit\n25825"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25828"
+    },
+    {
+      "source": "soffice.bin\nclone\n25828",
+      "target": "soffice.bin\nwrite\n25828"
+    },
+    {
+      "source": "cupsd\naccept\n767",
+      "target": "cupsd\nwrite\n767"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25828",
+      "target": "soffice.bin\nprocexit\n25828"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25824",
+      "target": "soffice.bin\nprocexit\n25824"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25835"
+    },
+    {
+      "source": "soffice.bin\nclone\n25835",
+      "target": "soffice.bin\nclone\n25835"
+    },
+    {
+      "source": "soffice.bin\nclone\n25835",
+      "target": "soffice.bin\nprocexit\n25835"
+    },
+    {
+      "source": "soffice.bin\nclone\n25835",
+      "target": "soffice.bin\nclone\n25836"
+    },
+    {
+      "source": "soffice.bin\nclone\n25836",
+      "target": "gpg\nexecve\n25836"
+    },
+    {
+      "source": "gpg\nexecve\n25836",
+      "target": "gpg\nwrite\n25836"
+    },
+    {
+      "source": "gpg\nwrite\n25836",
+      "target": "gpg\nprocexit\n25836"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25837"
+    },
+    {
+      "source": "soffice.bin\nclone\n25837",
+      "target": "soffice.bin\nclone\n25837"
+    },
+    {
+      "source": "soffice.bin\nclone\n25837",
+      "target": "soffice.bin\nprocexit\n25837"
+    },
+    {
+      "source": "soffice.bin\nclone\n25837",
+      "target": "soffice.bin\nclone\n25838"
+    },
+    {
+      "source": "soffice.bin\nclone\n25838",
+      "target": "gpgsm\nexecve\n25838"
+    },
+    {
+      "source": "gpgsm\nexecve\n25838",
+      "target": "gpgsm\nwrite\n25838"
+    },
+    {
+      "source": "gpgsm\nwrite\n25838",
+      "target": "gpgsm\nprocexit\n25838"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\npwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25843"
+    },
+    {
+      "source": "soffice.bin\nclone\n25843",
+      "target": "soffice.bin\npwrite\n25843"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25813",
+      "target": "soffice.bin\nwrite\n25813"
+    },
+    {
+      "source": "soffice.bin\nwrite\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25843",
+      "target": "soffice.bin\nprocexit\n25843"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25845"
+    },
+    {
+      "source": "soffice.bin\nclone\n25845",
+      "target": "soffice.bin\npwrite\n25845"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25845",
+      "target": "soffice.bin\nprocexit\n25845"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25846"
+    },
+    {
+      "source": "soffice.bin\nclone\n25846",
+      "target": "soffice.bin\npwrite\n25846"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25846",
+      "target": "soffice.bin\nprocexit\n25846"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25847"
+    },
+    {
+      "source": "soffice.bin\nclone\n25847",
+      "target": "soffice.bin\npwrite\n25847"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25847",
+      "target": "soffice.bin\nprocexit\n25847"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25848"
+    },
+    {
+      "source": "soffice.bin\nclone\n25848",
+      "target": "soffice.bin\nclone\n25848"
+    },
+    {
+      "source": "soffice.bin\nclone\n25848",
+      "target": "osl_executeProc\nclone\n25849"
+    },
+    {
+      "source": "osl_executeProc\nclone\n25849",
+      "target": "shellcode\nexecve\n25849"
+    },
+    {
+      "source": "shellcode\nexecve\n25849",
+      "target": "nc\nexecve\n25849"
+    },
+    {
+      "source": "nc\nexecve\n25849",
+      "target": "nc\nbind\n25849"
+    },
+    {
+      "source": "nc\nbind\n25849",
+      "target": "nc\nlisten\n25849"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25813"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25850"
+    },
+    {
+      "source": "soffice.bin\nclone\n25850",
+      "target": "soffice.bin\npwrite\n25850"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25850",
+      "target": "soffice.bin\nprocexit\n25850"
+    },
+    {
+      "source": "soffice.bin\nclone\n25813",
+      "target": "soffice.bin\nclone\n25851"
+    },
+    {
+      "source": "soffice.bin\nclone\n25851",
+      "target": "soffice.bin\npwrite\n25851"
+    },
+    {
+      "source": "soffice.bin\npwrite\n25851",
+      "target": "soffice.bin\nprocexit\n25851"
+    },
+    {
+      "source": "bash\nwrite\n24584",
+      "target": "bash\nclone\n24584"
+    },
+    {
+      "source": "bash\nclone\n24584",
+      "target": "bash\nwrite\n24584"
+    },
+    {
+      "source": "bash\nclone\n24584",
+      "target": "bash\nclone\n25854"
+    },
+    {
+      "source": "bash\nclone\n25854",
+      "target": "netstat\nexecve\n25854"
+    },
+    {
+      "source": "netstat\nexecve\n25854",
+      "target": "netstat\nwrite\n25854"
+    },
+    {
+      "source": "netstat\nwrite\n25854",
+      "target": "netstat\nprocexit\n25854"
+    }
+  ]
+}
