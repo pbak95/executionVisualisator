@@ -4,16 +4,14 @@ import BarChart from "./BarChart";
 
 function App() {
   return (
-    <div className="App">
-        {/*<ul className="nav">*/}
-        {/*    <li className="nav-item">*/}
-        {/*        <a className="nav-link active" href="#">Active</a>*/}
-        {/*    </li>*/}
-        {/*    <li className="nav-item">*/}
-        {/*        <a className="nav-link" href="#">Link</a>*/}
-        {/*    </li>*/}
-        {/*</ul>*/}
-        <BarChart/>
+    <div className="area">
+    <div className = "header">
+    <img src="logo.png"/>
+    <h1>Process tracker</h1>
+    </div>
+      <div className="App">
+          <BarChart/>
+      </div>
     </div>
   );
 }

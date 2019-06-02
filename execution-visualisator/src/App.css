@@ -1,3 +1,21 @@
+.header {
+  height: 100px;
+  width: 1000px;
+  padding-left: 50px;
+  padding-top: 20px;
+  background-image: linear-gradient(to bottom, #eeeeee, #999999);
+  border: 2px solid grey;
+  border-radius: 25px 75px 25px 75px;
+}
+
+.header img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 15px;
+  height: 50px;
+  width: 50px;
+}
+
 .App {
   text-align: center;
 }
